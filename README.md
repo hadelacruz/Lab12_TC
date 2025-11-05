@@ -3,6 +3,10 @@
 
 Este proyecto implementa soluciones a problemas de programación funcional usando TypeScript, aprovechando sus capacidades como lenguaje multiparadigma.
 
+## Vídeo Funcionamiento
+
+## https://youtu.be/0qtf0gMAJ5o ##
+
 ## 📋 Contenido
 
 - **Problema 2**: Ordenar lista de diccionarios con funciones lambda
@@ -110,7 +114,3 @@ Lab12_TC/
 ├── tsconfig.json
 └── README.md
 ```
-
-## 👤 Autor
-
-Laboratorio 12 - Teoría de Computación
