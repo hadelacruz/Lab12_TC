@@ -1,9 +1,5 @@
 /**
  * PROBLEMA 4: Eliminar elementos de una lista usando funciones lambda
- * 
- * Escribir un programa que elimine elementos indicados de una lista, usando funciones lambda.
- * Los elementos a borrar deben indicarse como una lista, y la salida debe ser la lista de
- * elementos remanentes.
  */
 
 /**
@@ -42,13 +38,11 @@ console.log(colors);
 console.log("\nElementos a eliminar:");
 console.log(toRemove);
 
-// Eliminar elementos
 const result = removeElements(colors, toRemove);
 
 console.log("\nLista resultante:");
 console.log(result);
 
-// Ejemplo adicional con números
 console.log("\n" + "-".repeat(60));
 console.log("Ejemplo adicional con números:");
 console.log("-".repeat(60));
@@ -68,5 +62,4 @@ console.log(numbersResult);
 
 console.log("\n" + "=".repeat(60));
 
-// Exportar la función
 export { removeElements };

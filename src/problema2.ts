@@ -1,8 +1,5 @@
 /**
  * PROBLEMA 2: Ordenar lista de diccionarios con funciones lambda
- * 
- * Escribir un programa que ordene una lista de diccionarios con respecto a un key indicado,
- * usando funciones lambda.
  */
 
 type Dictionary = Record<string, any>;
@@ -25,7 +22,6 @@ console.log("=".repeat(60));
 console.log("PROBLEMA 2: Ordenar lista de diccionarios por key");
 console.log("=".repeat(60));
 
-// Lista original de diccionarios
 const phones: Dictionary[] = [
     { make: 'Nokia', model: 216, color: 'Black' },
     { make: 'Mi Max', model: 2, color: 'Gold' },
@@ -52,5 +48,4 @@ console.log(JSON.stringify(sortedByColor, null, 2));
 
 console.log("\n" + "=".repeat(60));
 
-// Exportar la función para uso en otros módulos
 export { sortByKey };

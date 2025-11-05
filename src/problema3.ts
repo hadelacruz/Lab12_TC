@@ -1,9 +1,5 @@
 /**
  * PROBLEMA 3: Calcular matriz transpuesta usando funciones lambda
- * 
- * Se tiene una matriz X (definida como lista de listas). Escribir un programa que calcule
- * la matriz transpuesta XT, usando funciones lambda. La salida debe darse también como
- * una lista de listas.
  */
 
 type Matrix = number[][];
@@ -12,7 +8,6 @@ type Matrix = number[][];
  * Función que calcula la transpuesta de una matriz usando funciones lambda
  */
 const transpose = (matrix: Matrix): Matrix => {
-    // Si la matriz está vacía, retornar matriz vacía
     if (matrix.length === 0 || matrix[0].length === 0) return [];
     
     const rows = matrix.length;
@@ -51,7 +46,6 @@ printMatrix(X, "Matriz original X");
 const XT = transpose(X);
 printMatrix(XT, "Matriz transpuesta XT");
 
-// Ejemplo adicional: matriz no cuadrada
 console.log("\n" + "-".repeat(60));
 console.log("Ejemplo adicional: Matriz no cuadrada");
 console.log("-".repeat(60));
@@ -68,5 +62,4 @@ printMatrix(YT, "Matriz transpuesta YT (4x2)");
 
 console.log("\n" + "=".repeat(60));
 
-// Exportar las funciones
 export { transpose };
